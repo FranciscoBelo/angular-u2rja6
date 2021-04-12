@@ -7,15 +7,18 @@ import { Component, ViewChild, ElementRef, OnInit } from "@angular/core";
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
-  
   title = "Centipede Game";
   title1 = "Decomposition number 100";
   title2 = "Sum Number"
   animate(): void {}
-  @ViewChild('p') inputName; // accessing the reference element
+  @ViewChild('100c') inputName100c;
+  @ViewChild('100d') inputName100d;
+  @ViewChild('100u') inputName100u; // accessing the reference element
   handleClear(){
       // clearing the value
-    this.inputName.nativeElement.value = ' ';
+    this.inputName100c.nativeElement.value = ' ';
+    this.inputName100d.nativeElement.value = ' ';
+    this.inputName100u.nativeElement.value = ' ';
   }
   @ViewChild('audioOption') audioPlayerRef: ElementRef;
 

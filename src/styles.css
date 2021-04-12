@@ -3,6 +3,9 @@
   height: 50px;
   width: 50px;
   background-color: #555;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 .imgdiv {
   margin-top: 0px;
@@ -20,9 +23,38 @@ table tr td {
 td{
   text-align: center;
 }
-textarea {
-  resize: none;
+textarea.ng-invalid {
+    background-color:pink;
 }
+textarea.ng-valid {
+    background-color:lightgreen;
+}
+.container {
+  width: 80px;
+  height: 80px;
+  background: #eee;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.text {
+  text-align: center;
+  margin: 10px;
+}
+div{
+  float: left;
+}
+textarea {
+  white-space: normal;
+  text-align: center;
+  text-align-last: center;
+  justify-content: center;
+  resize: none;
+  align-items: center;
+}
+
 .formfield * {
   vertical-align: middle;
 }
