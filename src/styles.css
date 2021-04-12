@@ -6,7 +6,7 @@
 }
 .imgdiv {
   margin-top: 0px;
-  margin-left: 100px;
+  margin-left: 200px;
   margin-right: 10px;
   height: 150px;
 }
@@ -16,6 +16,9 @@
 }
 table tr td {
   border: 1px solid #ccc;
+}
+td{
+  text-align: center;
 }
 textarea {
   resize: none;
