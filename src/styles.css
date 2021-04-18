@@ -7,21 +7,47 @@
   align-items: center;
   justify-content: center;
 }
+
+.label {
+   border: 10px solid black;
+}
 .imgdiv {
   margin-top: 0px;
   margin-left: 200px;
   margin-right: 10px;
   height: 150px;
 }
+
+.example-card {
+  max-width: 1000px;
+  border: 1px solid #ccc
+
+
+}
+
+.example-header-image {
+  background-image: url('https://www.imagensanimadas.com/data/media/1764/centopeia-imagem-animada-0005.gif');
+  background-size: cover;
+  
+}
+.mat-button-toggle-group {
+  margin-left: 12px;
+}
 .img1 {
   height: 150px;
   width: 220px;
 }
-table tr td {
+table {
   border: 1px solid #ccc;
+  width: 100%;
 }
+section {
+  display: table;
+}
+
 td{
   text-align: center;
+  border: 1px solid #ccc;
 }
 textarea.ng-invalid {
     background-color:pink;

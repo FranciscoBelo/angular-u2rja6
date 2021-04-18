@@ -2,6 +2,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { NgxAudioPlayerModule } from 'ngx-audio-player';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import { MatCardModule } from '@angular/material/card';
+import { MatTableModule } from '@angular/material/table';
 
 import { AppComponent } from './app.component';
 
@@ -11,7 +14,10 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    NgxAudioPlayerModule
+    NgxAudioPlayerModule,
+    MatButtonToggleModule,
+    MatCardModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
